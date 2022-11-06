@@ -1,0 +1,29 @@
+.pic{
+    height: 250px;
+    position: relative;
+    left: 60px;
+    top: 80px;
+    border-radius: 50%;
+    opacity: 90%;
+    cursor: pointer;
+}
+
+
+
+
+.pp{
+    background-image: url('https://www.jindalfilms.com/wp-content/uploads/2017/06/banner-back.jpg');
+    display:flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:767px) {
+    .pp{
+       
+        min-height: 1000px;
+       
+    }
+}

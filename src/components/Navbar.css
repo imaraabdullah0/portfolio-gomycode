@@ -1,0 +1,16 @@
+.navbar{
+  z-index: 10;
+}
+
+.logo{
+  animation: glow 2s ease-in-out infinite 
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 30px #90f4ae;
+  }
+  to {
+    text-shadow: 0 0 40px #91d129, 0 0 10px #4dbbc7;
+  }
+}
