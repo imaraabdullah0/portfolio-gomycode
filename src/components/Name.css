@@ -1,19 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Righteous);
 
 .name, .name:before, .name:after {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   position: relative;
-  top:-400px;
+  /* top:-400px; */
+  
   }
  .name{
    margin-left:50px;
+   margin-bottom: 0px;
     }
   .name:before {
     content: '';
     display: inline-block;
     vertical-align: middle;
     font-size: 0;
-    height: 100%;
+    /* height: 100%; */
     }
 
 .name {
@@ -22,13 +24,13 @@
   font-family: 'Righteous', serif;
   font-size: 3em; 
   text-shadow: .03em .03em 0 rgba(29, 162, 228, 0.79);
-  height: 100%;
+  /* height: 100%; */
   }
   .name:after {
     content: attr(data-shadow);
     position:absolute;
     top: .06em; left: .06em;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     z-index: 0;
     text-shadow: none;

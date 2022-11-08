@@ -1,13 +1,19 @@
 .pic{
-    height: 250px;
+    height: 350px;
     position: relative;
     left: 60px;
     top: 80px;
     border-radius: 50%;
     opacity: 90%;
     cursor: pointer;
+    
 }
 
+.name{
+    position: relative;
+    top: 170px;
+
+}
 
 
 
@@ -18,6 +24,7 @@
     min-width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width:767px) {

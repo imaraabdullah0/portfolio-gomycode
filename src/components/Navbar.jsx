@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import './Navbar.css'
 import {AiFillCode ,AiOutlineMore,AiOutlineClose } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -15,10 +16,16 @@ const Navbar = () => {
            <p>CODE</p>
         </div>
         <div className='links'>
-            <ul className='hidden md:flex m-1 pr-2 items-center'>
-                <li href='/' className='pr-9 text-gray-200 hover:text-green-300 cursor-pointer '>home</li>
-                <li href='/name' className='pr-9 text-gray-200 hover:text-green-300 cursor-pointer'>my projets</li>
-                <li href='/my-project' className='pr-9 text-gray-200 hover:text-green-300 cursor-pointer'>contacts</li>
+            <ul className='hidden md:flex m-1 pr-2 items-center justify-between'>
+            <Link to='/'>
+                <button  className='pr-20 text-gray-200 hover:text-green-300 cursor-pointer '>home </button>
+            </Link>
+            <Link to='/myworks'>
+                <button className='pr-20 text-gray-200 hover:text-green-300 cursor-pointer'>my projets</button>
+            </Link>
+            <Link to='/contacts'>
+                <button className='pr-20 text-gray-200 hover:text-green-300 cursor-pointer'>contacts</button>
+            </Link>
             </ul>
         </div>
 
